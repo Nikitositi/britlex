@@ -1,0 +1,6 @@
+.lead {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

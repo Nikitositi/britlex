@@ -1,0 +1,10 @@
+.header__list-item {
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__list-item:last-child {
+  margin-right: 0;
+}
