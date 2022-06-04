@@ -28,3 +28,9 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width:550px) {
+  .about {
+    margin-top: 70px;
+  }
+}

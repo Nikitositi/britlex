@@ -1,3 +1,9 @@
 .pricing {
   margin-top: 282px;
 }
+
+@media screen and (max-width:550px) {
+  .pricing {
+    margin-top: 70px;
+  }
+}
