@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+  .about__image {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about__image {
+    max-width: 340px;
+  }
+}

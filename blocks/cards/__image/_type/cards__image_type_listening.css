@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+  .cards__image_type_listening {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .cards__image_type_listening {
+    width: 100%;
+  }
+}

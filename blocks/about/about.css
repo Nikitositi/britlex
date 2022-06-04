@@ -1,0 +1,30 @@
+.about {
+  margin-top: 282px;
+  display: flex;
+  gap: 270px;
+}
+
+@media screen and (max-width: 1380px) {
+  .about {
+    gap: 170px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .about {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width:830px) {
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

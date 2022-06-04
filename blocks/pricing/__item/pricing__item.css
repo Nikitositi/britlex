@@ -1,0 +1,13 @@
+.pricing__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc((100% - 104px) / 3);
+}
+
+@media screen and (max-width:830px) {
+  .pricing__item {
+    width: 70%;
+    align-items: center;
+  }
+}

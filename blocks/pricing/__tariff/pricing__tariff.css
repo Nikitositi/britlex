@@ -1,0 +1,17 @@
+.pricing__tariff {
+  background-color: #EEE;
+  border-radius: 5px;
+  align-self: flex-start;
+  justify-self: flex-end;
+  padding: 5px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #546269;
+}
+
+@media screen and (max-width:830px) {
+  .pricing__tariff {
+    align-self: center;
+  }
+}

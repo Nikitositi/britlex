@@ -5,3 +5,23 @@
   font-size: 64px;
   line-height: 80px;
 }
+
+@media screen and (max-width: 1200px) {
+  .lead__title {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lead__title {
+    font-size: 47px;
+  }
+}
+
+@media screen and (max-width:830px) {
+  .lead__title {
+    margin: 0 auto;
+    font-size: 34px;
+    line-height: 1.32;
+  }
+}

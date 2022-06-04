@@ -1,0 +1,11 @@
+@media screen and (max-width: 1030px) {
+  .contact__image {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact__image {
+    max-width: 340px;
+  }
+}

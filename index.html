@@ -10,6 +10,7 @@
   <div class="page__container">
     <header class="header">
       <img src="./images/britlex-logo.svg" alt="Britlex logo" class="header__logo">
+      <button type="button" class="button button_type_mobile-burger"></button>
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__list-item">
@@ -45,48 +46,146 @@
       </section>
 
       <section class="skills">
-        <h2 class="skills_title">Skills</h2>
+        <h2 class="skills__title">Skills</h2>
         <div class="cards">
           <div class="cards__item">
-            <img src="" alt="" class="cards__image">
-            <h3 class="cards__title">Speaking</h3>
-            <p class="cards__text">Improve your English skills and confidence. 
-              Live classes and interactive lessons online. 
-              20% extra free for a limited time only
-              
-              Learn English online and improve your 
-              skills through our high-quality courses
-              and resources – all designed for adult language learners.</p>
-            <button class="button button_place_cards">Learn more</button>
+            <img src="./images/cards1.svg" alt="" class="cards__image cards__image_type_speaking">
+            <div class="cards__info">
+              <h3 class="cards__title">Speaking</h3>
+              <p class="cards__text">Improve your English skills and confidence. 
+                Live classes and interactive lessons online. 
+                20% extra free for a limited time only
+              </p>
+              <p class="cards__text">Learn English online and improve your 
+                skills through our high-quality courses
+                and resources – all designed for adult language learners.</p>
+              <button class="button button_place_cards">Learn more</button>
+            </div>
           </div>
           <div class="cards__item">
-            <img src="" alt="" class="cards__image">
-            <h3 class="cards__title">Writing</h3>
-            <p class="cards__text">One of the most important and extensive 
-              areas of natural science, the science that 
-              studies substances, also their composition </p>
-            <button class="button button_place_cards">Learn more</button>
+            <img src="./images/cards2.svg" alt="" class="cards__image cards__image_type_writing">
+            <div class="cards__info">
+              <h3 class="cards__title">Writing</h3>
+              <p class="cards__text">One of the most important and extensive 
+                areas of natural science, the science that 
+                studies substances, also their composition </p>
+              <button class="button button_place_cards">Learn more</button>
+            </div>
           </div>
           <div class="cards__item">
-            <img src="" alt="" class="cards__image">
-            <h3 class="cards__title">Reading</h3>
-            <p class="cards__text">perception and response actions of the user
-              resulting from the use and/or upcoming use 
-              of the product, system or service</p>
-            <button class="button button_place_cards">Learn more</button>
+            <img src="./images/cards3.svg" alt="" class="cards__image cards__image_type_reading">
+            <div class="cards__info">
+              <h3 class="cards__title">Reading</h3>
+              <p class="cards__text">perception and response actions of the user
+                resulting from the use and/or upcoming use 
+                of the product, system or service</p>
+              <button class="button button_place_cards">Learn more</button>
+            </div>
           </div>
           <div class="cards__item">
-            <img src="" alt="" class="cards__image">
-            <h3 class="cards__title">Listening</h3>
-            <p class="cards__text">Here you can find activities to practise
-              your listening skills. Listening will help you
-              to improve your understanding</p>
-            <button class="button button_place_cards">Learn more</button>
+            <img src="./images/cards4.svg" alt="" class="cards__image cards__image_type_listening">
+            <div class="cards__info">
+              <h3 class="cards__title">Listening</h3>
+              <p class="cards__text">Here you can find activities to practise
+                your listening skills. Listening will help you
+                to improve your understanding</p>
+              <button class="button button_place_cards">Learn more</button>
+            </div>
           </div>
         </div>
       </section>
 
+      <section class="about">
+        <div class="about__wrapper">
+          <h2 class="about__title">About Us</h2>
+          <p class="about__text">
+            The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.
+          </p>
+          <div class="about__numbers">
+            <div class="about__num">
+              <span class="about__number">800</span>
+              <p class="about__num-text">Pupils</p>
+            </div>
+            <div class="about__num">
+              <span class="about__number">18</span>
+              <p class="about__num-text">Teachers</p>
+            </div>
+            <div class="about__num">
+              <span class="about__number">6</span>
+              <p class="about__num-text">Foreign languages</p>
+            </div class="about__num">
+          </div>
+        </div>
+        <img class="about__image" src="./images/about.svg" alt="Изображение секции about">
+      </section>
+
+      <section class="pricing">
+        <h2 class="pricing__title">Pricing</h2>
+        <div class="pricing__container">
+          <div class="pricing__item">
+            <div class="pricing__wrapper">
+              <img src="./images/Pricing1.svg" alt="Изображение онлайн-тестирования" class="pricing__image">
+              <h3 class="pricing__item-title">Self-study online course</h3>
+              <p class="pricing__item-text">Start learning English online in live classes with qualified EC teachers and students from all over the world.</p>
+            </div>
+            <div class="pricing__tariff">
+              <span class="pricing__price">£5.99</span>
+              per month
+            </div>
+          </div>
+          <div class="pricing__item">
+            <div class="pricing__wrapper">
+              <img src="./images/Pricing2.svg" alt="Изображение онлайн-занятий" class="pricing__image">
+              <h3 class="pricing__item-title">Live online classes</h3>
+              <p class="pricing__item-text">Interactive group classes with expert teachers. Free 7-day trial</p>
+            </div class="pricing__wrapper">
+            <div class="pricing__tariff">
+              <span class="pricing__price">£12.99</span>
+              per month
+            </div>
+          </div>
+          <div class="pricing__item">
+            <div class="pricing__wrapper">
+              <img src="./images/Pricing3.svg" alt="Изображение личных занятий" class="pricing__image">
+              <h3 class="pricing__item-title">Personal Tuition</h3>
+              <p class="pricing__item-text">Online one-to-one English tutoring – enjoy our first session for only $1</p>
+            </div class="pricing__wrapper">
+            <div class="pricing__tariff">
+              <span class="pricing__price">£20.99</span>
+              per month
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <img src="./images/Contact.svg" alt="Изображение в секции Contact" class="contact__image">
+        <div class="contact__container">
+          <h2 class="contact__title">Contact Us</h2>
+          <p class="contact__text">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
+          <form id="contact-form" name="contact-form" class="contact__form" novalidate>
+            <input type="input" class="contact__form-input" type="email" placeholder="Enter Your E-mail">
+            <input type="submit" class="contact__button" name="contact-submit" value="Subscribe">
+          </form>
+        </div>
+      </section>
+
     </main>
+
+    <footer class="footer">
+      <img src="./images/britlex-logo.svg" alt="Britlex logo" class="footer__logo">
+      <ul class="footer__nav">
+        <li class="footer__nav-item">
+          <a href="#" class="footer__link">Terms and Conditions</a>
+        </li>
+        <li class="footer__nav-item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__nav-item">
+          <a href="#" class="footer__link">Cookie Policy</a>
+        </li>
+      </ul>
+    </footer>
 
   </div> <!--/container-->
   

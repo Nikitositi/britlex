@@ -4,7 +4,6 @@
   font-weight: 400;
   src: url(./Poppinsregular.woff) format("woff"),
   url(./Poppinsregular.woff2) format("woff2"),
-  url(./Poppinsregular.ttf) format("truetype");
 }
 
 @font-face {
@@ -13,5 +12,4 @@
   font-weight: 600;
   src: url(./Poppinspoppins-semiboldmedium.woff) format("woff"),
   url(./Poppinspoppins-semiboldmedium.woff2) format("woff2"),
-  url(./Poppinspoppins-semiboldmedium.ttf) format("truetype");
 }

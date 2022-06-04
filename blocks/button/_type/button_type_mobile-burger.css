@@ -1,0 +1,19 @@
+.button_type_mobile-burger {
+  z-index: 1;
+  width: 34px;
+  height: 19px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: #ffffff;
+  background-image: url(../../../images/mobile-menu-burger.svg);
+  transition: background-image 0.35s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (min-width:900px) {
+  .button_type_mobile-burger {
+    display: none;
+  }
+}

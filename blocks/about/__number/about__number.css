@@ -1,0 +1,12 @@
+.about__number {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.67;
+  color: #2A3246;
+}
+
+@media screen and (max-width: 550px) {
+  .about__number {
+    font-size: 35px;
+  }
+}

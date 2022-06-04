@@ -8,3 +8,15 @@
   line-height: 36px;
   color: #8F95A5;
 }
+
+@media screen and (max-width: 1200px) {
+  .lead__text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lead__text {
+    font-size: 18px;
+  }
+}

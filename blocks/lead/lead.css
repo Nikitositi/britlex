@@ -4,3 +4,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width:830px) {
+  .lead {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}

@@ -1,9 +1,24 @@
 .button_place_lead {
-  padding: 32px 117px;
+  padding: 32px 100px;
+  max-width: 438px;
   font-weight: 400;
   font-size: 36px;
   line-height: 54px;
   color: #FFFFFF;
   background: #263238;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .button_place_lead {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button_place_lead {
+    max-width: 270px;
+    font-size: 25px;
+    padding: 15px 40px;
+  }
 }

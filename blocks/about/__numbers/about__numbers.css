@@ -1,0 +1,5 @@
+.about__numbers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
