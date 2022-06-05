@@ -31,7 +31,7 @@
           </li>
         </ul>
       </nav>
-      <button class="button button_place_header">Let's talk</button>
+      <button class="button button_place_header button-contact">Let's talk</button>
     </header>
 
     <main class="content">
@@ -39,7 +39,7 @@
         <div class="lead__info">
           <h1 class="lead__title">Learn Any&nbsp;Foreign Language</h1>
           <p class="lead__text">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
-          <button class="button button_place_lead">
+          <button class="button button_place_lead button-contact">
             Get&nbsp;started
           </button>
         </div>
@@ -164,8 +164,8 @@
         <div class="contact__container">
           <h2 class="contact__title">Contact Us</h2>
           <p class="contact__text">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
-          <form id="contact-form" name="contact-form" class="contact__form" novalidate>
-            <input type="input" class="contact__form-input" type="email" placeholder="Enter Your E-mail">
+          <form id="contact-form" name="contact-form" class="contact__form">
+            <input type="email" class="contact__form-input" placeholder="Enter Your E-mail" required>
             <input type="submit" class="contact__button" name="contact-submit" value="Subscribe">
           </form>
         </div>
@@ -188,5 +188,33 @@
     </footer>
 
   </div> <!--/container-->
+
+  <div class="popup popup_type_add">
+    <div class="popup__container">
+      <h3 class="popup__title">Sign up for classes</h3>
+      <form class="popup__form" id="add-form" name="popup-card">
+        <input 
+        type="email" 
+        class="popup__input popup__input_link contact__form-input" 
+        placeholder="Enter Your E-mail"
+        name="email"
+        id="email-input"
+        value=""
+        required>
+        <span class="popup__input-error" id="email-input-error"></span>
+        <input type="submit" class="popup__button" name="submit" value="Sign Up">
+      </form>
+      <button class="button button_type_close"></button>
+    </div>
+  </div>
+
+  <div class="popup popup_type_subs">
+    <div class="popup__container">
+      <h3 class="popup__title">Thanks for Subscribe</h3>
+      <button class="button button_type_close"></button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>

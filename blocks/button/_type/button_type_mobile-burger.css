@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.button_type_mobile-burger_active {
+  background-image: url(../../../images/close-btn-black.svg);
+}
+
 @media screen and (min-width:900px) {
   .button_type_mobile-burger {
     display: none;

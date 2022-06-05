@@ -1,0 +1,8 @@
+.header__nav_active {
+  display: block;
+  position: absolute;
+  top: 84px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 50px;
+}
